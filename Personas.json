@@ -1,0 +1,28 @@
+{
+    "Caracteristicas": [
+        {
+            "Nombre": "Franci",
+            "Apellido": "Cantero",
+            "Edad": 25,
+            "Peso": "52kg"
+        },
+        {
+            "Nombre": "Maria",
+            "Apellido": "Sanchez",
+            "Edad": "20",
+            "Peso": "21"
+        },
+        {
+            "Nombre": "Mari",
+            "Apellido": "Sanchez",
+            "Edad": "20",
+            "Peso": "21"
+        },
+        {
+            "Nombre": "Maria",
+            "Apellido": "Sanchez",
+            "Edad": "20",
+            "Peso": "21"
+        }
+    ]
+}
