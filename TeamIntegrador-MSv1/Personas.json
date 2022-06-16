@@ -1,0 +1,11 @@
+{
+    "pacientes": [
+        {
+            "Documento": "123456789",
+            "Nombre": "Maria",
+            "Apellido": "Gonzales",
+            "FechaDeNacimiento": "30/10",
+            "Nacionailidad": "Argentina"
+        }
+    ]
+}
