@@ -10,3 +10,11 @@ def es_uno(entrada):
 def es_dos(entrada):
     if entrada==2:
         return True
+
+
+def es_tres(entrada):
+    if entrada==3:
+        return True
+def es_cuatro(entrada):
+    if entrada==4:
+        return True 
