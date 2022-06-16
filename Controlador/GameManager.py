@@ -2,22 +2,21 @@ import GeneradorPersonas
 import funciones_utiles as respuesta
 
 
-
 while True:
-    print("Toca 0 para salir")
+    print("Toca 0 para salir ")
 
-    print("Toca 1 para agregar un profesional")
+    print("Toca 1 para agregar un profesional ")
     
-    print("Toca 2 para modificar un profesional")
+    print("Toca 2 para modificar un profesional ")
 
-    print("Toca 3 para eliminar un profesional")
+    print("Toca 3 para eliminar un profesional ")
 
-    print("Toca 4 para crear un archivo")
+    print("Toca 4 para crear un archivo ")
 
-    print("Toca 5 listar los medicos")
+    print("Toca 5 listar los medicos ")
 
-    pregunta = input("Que queres hacer")
-    if(pregunta.isnumeric):
+    pregunta = input("Que queres hacer ")
+    if(pregunta.isnumeric()):
         pregunta=int(pregunta)
     else:
         print("Inserte un valor")
@@ -46,4 +45,5 @@ while True:
         print("Los medicos son")
         GeneradorPersonas.listar_profesionales()
         print("-------------------------------")
+        input("Presione una tecla para continuar")
     
