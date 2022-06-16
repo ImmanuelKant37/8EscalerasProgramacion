@@ -18,3 +18,6 @@ def es_tres(entrada):
 def es_cuatro(entrada):
     if entrada==4:
         return True 
+def es_cinco(entrada):
+    if entrada==5:
+        return True 

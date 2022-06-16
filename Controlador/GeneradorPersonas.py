@@ -44,6 +44,11 @@ def eliminar_persona(Archivo,index):
     with open(Archivo+'.json', 'w') as Archivo:
         json.dump(Profesional, Archivo, indent=4)
 
+def listar_profesionales():
+     Profesional=leer_archivo_json('Profesional')
+     Medico = list(Profesional['Medico'])
+     for Atributo in Medico:
+         print("Medico: ",Atributo['Nombre'], "\n")
 
 #crea_archivo_json('Profesional')
 #eliminar_persona("Profesional",1)

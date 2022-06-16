@@ -2,12 +2,6 @@ import GeneradorPersonas
 import funciones_utiles as respuesta
 
 
-#GeneradorPersonas.crea_archivo_json('Personas')
-#GeneradorPersonas.eliminar_persona("Personas",1)
-#GeneradorPersonas.agregar_persona("Mari", "Sanchez","20","21","Personas")
-#GeneradorPersonas.agregar_persona("Maria", "Sanchez","20","21","Personas")
-#modificar_persona("Franci", "Nombre", "Francisco","Personas")
-
 
 while True:
     print("Toca 0 para salir")
@@ -19,6 +13,9 @@ while True:
     print("Toca 3 para eliminar un profesional")
 
     print("Toca 4 para crear un archivo")
+
+    print("Toca 5 listar los medicos")
+
     pregunta = input("Que queres hacer")
     if(pregunta.isnumeric):
         pregunta=int(pregunta)
@@ -44,3 +41,9 @@ while True:
     if respuesta.es_cuatro(int(pregunta)):
         GeneradorPersonas.crea_archivo_json('Profesional')
         print("Archivo creado")
+    if respuesta.es_cinco(int(pregunta)):
+        print("-------------------------------")
+        print("Los medicos son")
+        GeneradorPersonas.listar_profesionales()
+        print("-------------------------------")
+    
