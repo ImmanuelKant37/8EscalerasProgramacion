@@ -1,0 +1,18 @@
+{
+    "pacientes": [
+        {
+            "Documento": "32",
+            "Nombre": "Juan",
+            "Apellido": "Perez",
+            "FechaDeNacimiento": "20/19",
+            "Nacionailidad": "Arg"
+        },
+        {
+            "Documento": "24",
+            "Nombre": "Juan",
+            "Apellido": "Rodriguez",
+            "FechaDeNacimiento": "31/08",
+            "Nacionailidad": "Bra"
+        }
+    ]
+}
