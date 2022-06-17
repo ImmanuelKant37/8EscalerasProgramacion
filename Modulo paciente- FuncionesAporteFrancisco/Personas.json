@@ -1,18 +1,11 @@
 {
     "pacientes": [
         {
-            "Documento": "32",
-            "Nombre": "Juan",
-            "Apellido": "Perez",
-            "FechaDeNacimiento": "20/19",
-            "Nacionailidad": "Arg"
-        },
-        {
-            "Documento": "24",
-            "Nombre": "Juan",
-            "Apellido": "Rodriguez",
-            "FechaDeNacimiento": "31/08",
-            "Nacionailidad": "Bra"
+            "Documento": "39837720",
+            "Nombre": "Francisco",
+            "Apellido": "Cantero",
+            "FechaDeNacimiento": "21/05/1996",
+            "Nacionalidad": "ARG"
         }
     ]
 }

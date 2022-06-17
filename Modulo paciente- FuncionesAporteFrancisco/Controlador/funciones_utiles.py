@@ -26,8 +26,10 @@ def devuelve_edad(fecha_ingresada):
     try:
         if len(fecha_ingresada)==10: 
           edad=hoy-int(fecha_ingresada[6:8])
+          return edad
         elif(len(fecha_ingresada)==8):
          edad=hoy=int(hoy_str[2:4])
+         return edad
         else:
          print("ingrese una fecha valida")
     except(e):

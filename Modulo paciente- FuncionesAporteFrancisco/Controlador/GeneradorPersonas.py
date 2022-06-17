@@ -34,7 +34,7 @@ def modificar_persona(Nombre, Atributo,NuevoNombre,Archivo):
 def agregar_persona(Documento,Nombre,Apellido,FechaDeNacimiento,Nacionalidad,Archivo):
     Personas=leer_archivo_json('Personas')
     pacientes = list(Personas['pacientes'])
-    pacientes.append({'Documento': Documento,'Nombre':Nombre,'Apellido':Apellido,'FechaDeNacimiento':FechaDeNacimiento,'Nacionailidad':Nacionalidad})
+    pacientes.append({'Documento': Documento,'Nombre':Nombre,'Apellido':Apellido,'FechaDeNacimiento':FechaDeNacimiento,'Nacionalidad':Nacionalidad})
     Personas['pacientes']=pacientes
     with open(Archivo+'.json', 'w') as Archivo:
         json.dump(Personas, Archivo, indent=4)
@@ -49,9 +49,13 @@ def eliminar_persona(Archivo,index):
         json.dump(Personas, Archivo, indent=4)
 
 def filtar_personas(tipo_filtro):
-    Personas=leer_archivo_json('Personas')
-    pacientes=list(Personas['pacientes'])
-    print(pacientes)
+    try:
+        Personas=leer_archivo_json('Personas')
+        pacientes=list(Personas['pacientes'])
+        for paciente in pacientes:
+            print("Nombre:",paciente['Nombre'],tipo_filtro+":", paciente[tipo_filtro])
+    except(e):
+        print("Atributo no encontrado")
 
 
 #crea_archivo_json('Personas')

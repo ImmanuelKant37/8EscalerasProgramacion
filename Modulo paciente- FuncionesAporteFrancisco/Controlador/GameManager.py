@@ -2,8 +2,6 @@ import GeneradorPersonas
 import funciones_utiles as util
 
 
-#GeneradorPersonas.crea_archivo_json('Personas')
-#GeneradorPersonas.eliminar_persona("Personas",1)
 
 GeneradorPersonas.crea_archivo_json("Personas") 
 
@@ -15,7 +13,7 @@ while True:
     print("Toca 3 para eliminar un paciente: ")
     print("Toca 4 para filtar: ")
     pregunta = input("Que queres hacer? ")
-    if(pregunta.isnumeric):
+    if(pregunta.isnumeric()):
         pregunta=int(pregunta)
     else:
         print("Inserte un valor valido")
@@ -49,9 +47,9 @@ while True:
         print("3:Apellido")
         print("4:Fecha de nacimiento")
         print("5:Nacionalidad")
-
         tipo_busqueda=input("Ingrese un atributo a filtrar")
         print("-----------------")
         GeneradorPersonas.filtar_personas(tipo_busqueda)
         print("-------------------")
         input("Presione una tecla continuar")
+
