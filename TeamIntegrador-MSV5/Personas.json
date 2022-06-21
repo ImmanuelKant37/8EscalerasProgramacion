@@ -1,0 +1,76 @@
+{
+    "atributos": [
+        {
+            "Documento": "123456",
+            "Nombre": "Enzo",
+            "Apellido": "Perez",
+            "Fecha": "11/11/2000",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "1234567",
+            "Nombre": "Jona",
+            "Apellido": "Maidana",
+            "Fecha": "04/01/2004",
+            "Nacionalidad": "Peruano"
+        },
+        {
+            "Documento": "12345",
+            "Nombre": "Noe",
+            "Apellido": "Garcia",
+            "Fecha": "10/06/2000",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "1234",
+            "Nombre": "Gabriela",
+            "Apellido": "Ruiz",
+            "Fecha": "19/11/2000",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "12345678",
+            "Nombre": "Euge",
+            "Apellido": "Leyes",
+            "Fecha": "13/02/2000",
+            "Nacionalidad": "Arg"
+        }
+    ],
+    "historia clinica": [
+        {
+            "id_historia": "0",
+            "Fecha": "30/12/2003",
+            "Enfermedad": "Cancer",
+            "Medico": "Julian",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "1",
+            "Fecha": "08/08/2008",
+            "Enfermedad": "Ulceras",
+            "Medico": "Claudio",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "2",
+            "Fecha": "11/11/2001",
+            "Enfermedad": "Dengue",
+            "Medico": "Jose",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "3",
+            "Fecha": "23/02/2017",
+            "Enfermedad": "Perdida De Vista",
+            "Medico": "Julian",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "4",
+            "Fecha": "20/08/2014",
+            "Enfermedad": "Cancer",
+            "Medico": "Julian",
+            "Observaciones": "Ninguna"
+        }
+    ]
+}
