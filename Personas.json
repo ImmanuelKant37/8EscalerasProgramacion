@@ -1,0 +1,160 @@
+{
+    "atributos": [
+        {
+            "Documento": "123456",
+            "Nombre": "Enzo",
+            "Apellido": "Perez",
+            "Fecha": "11/11/2000",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "1234567",
+            "Nombre": "Jona",
+            "Apellido": "Maidana",
+            "Fecha": "04/01/2004",
+            "Nacionalidad": "Peruano"
+        },
+        {
+            "Documento": "12345",
+            "Nombre": "Noe",
+            "Apellido": "Garcia",
+            "Fecha": "10/06/2000",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "1234",
+            "Nombre": "Gabriela",
+            "Apellido": "Ruiz",
+            "Fecha": "19/11/2000",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "12345678",
+            "Nombre": "Euge",
+            "Apellido": "Leyes",
+            "Fecha": "13/02/2000",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "12345",
+            "Nombre": "Mateo",
+            "Apellido": "San",
+            "Fecha": "30/10/2000",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "1234567",
+            "Nombre": "Pame",
+            "Apellido": "Ruiz",
+            "Fecha": "20/10/2004",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "123456789",
+            "Nombre": "Pepe",
+            "Apellido": "Diaz",
+            "Fecha": "19/04/2008",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "1234567890",
+            "Nombre": "Cami",
+            "Apellido": "Villa",
+            "Fecha": "13/10/2016",
+            "Nacionalidad": "Bra"
+        },
+        {
+            "Documento": "1239",
+            "Nombre": "Itachi",
+            "Apellido": "Pop",
+            "Fecha": "13/10/2011",
+            "Nacionalidad": "Bra"
+        },
+        {
+            "Documento": "12345600",
+            "Nombre": "Fran",
+            "Apellido": "Ley",
+            "Fecha": "12/05/2000",
+            "Nacionalidad": "Bra"
+        }
+    ],
+    "historia clinica": [
+        {
+            "id_historia": "0",
+            "Fecha": "30/12/2003",
+            "Enfermedad": "Cancer",
+            "Medico": "Julian",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "1",
+            "Fecha": "08/08/2008",
+            "Enfermedad": "Ulceras",
+            "Medico": "Claudio",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "2",
+            "Fecha": "11/11/2001",
+            "Enfermedad": "Dengue",
+            "Medico": "Jose",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "3",
+            "Fecha": "23/02/2017",
+            "Enfermedad": "Perdida De Vista",
+            "Medico": "Julian",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "4",
+            "Fecha": "20/08/2014",
+            "Enfermedad": "Cancer",
+            "Medico": "Julian",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "5",
+            "Fecha": "12/11/2006",
+            "Enfermedad": "Cancer",
+            "Medico": "Julian",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "6",
+            "Fecha": "15/05/2008",
+            "Enfermedad": "Cancer",
+            "Medico": null,
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "7",
+            "Fecha": "23/10/2009",
+            "Enfermedad": "Cancer",
+            "Medico": null,
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "8",
+            "Fecha": "15/03/2020",
+            "Enfermedad": "Cancer",
+            "Medico": null,
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "9",
+            "Fecha": "17/03/2022",
+            "Enfermedad": "Cancer",
+            "Medico": "",
+            "Observaciones": "Ninguno"
+        },
+        {
+            "id_historia": "10",
+            "Fecha": "12/05/2010",
+            "Enfermedad": "Cancer",
+            "Medico": "Julian",
+            "Observaciones": "Ninguna"
+        }
+    ]
+}
