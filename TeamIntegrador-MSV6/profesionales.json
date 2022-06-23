@@ -1,0 +1,16 @@
+{
+    "profesional": [
+        {
+            "id_medico": "0",
+            "Nombre": "",
+            "Apellido": "",
+            "Especialidad": ""
+        },
+        {
+            "id_medico": "1",
+            "Nombre": "Julian",
+            "Apellido": "Alvarez",
+            "Especialidad": "Cirujano"
+        }
+    ]
+}
