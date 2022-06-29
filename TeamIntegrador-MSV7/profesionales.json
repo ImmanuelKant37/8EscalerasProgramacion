@@ -1,0 +1,28 @@
+{
+    "profesional": [
+        {
+            "id_medico": "0",
+            "Nombre": "Jose",
+            "Apellido": "Zarate",
+            "Especialidad": "cardiologo"
+        },
+        {
+            "id_medico": "1",
+            "Nombre": "Julian",
+            "Apellido": "Alvarez",
+            "Especialidad": "Cirujano"
+        },
+        {
+            "id_medico": "2",
+            "Nombre": "Alejandro",
+            "Apellido": "Villa",
+            "Especialidad": "Oculista"
+        },
+        {
+            "id_medico": "3",
+            "Nombre": "Pedro",
+            "Apellido": "Rodriguez",
+            "Especialidad": "Clinico"
+        }
+    ]
+}

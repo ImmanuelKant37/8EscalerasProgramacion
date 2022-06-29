@@ -1,0 +1,48 @@
+{
+    "atributos": [
+        {
+            "Documento": "123456",
+            "Nombre": "Enzo",
+            "Apellido": "Perez",
+            "Fecha": "11/11/2000",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "1234",
+            "Nombre": "Gabriela",
+            "Apellido": "Ruiz",
+            "Fecha": "19/11/2000",
+            "Nacionalidad": "Arg"
+        },
+        {
+            "Documento": "12345678",
+            "Nombre": "Euge",
+            "Apellido": "Leyes",
+            "Fecha": "13/02/2000",
+            "Nacionalidad": "Arg"
+        }
+    ],
+    "historia clinica": [
+        {
+            "id_historia": "0",
+            "Fecha": "30/12/2003",
+            "Enfermedad": "Cancer",
+            "Medico": "Villa",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "3",
+            "Fecha": "23/02/2017",
+            "Enfermedad": "Perdida De Vista",
+            "Medico": "Alvarez",
+            "Observaciones": "Ninguna"
+        },
+        {
+            "id_historia": "4",
+            "Fecha": "20/08/2014",
+            "Enfermedad": "Ulceras",
+            "Medico": "Rodriguez",
+            "Observaciones": "Ninguna"
+        }
+    ]
+}

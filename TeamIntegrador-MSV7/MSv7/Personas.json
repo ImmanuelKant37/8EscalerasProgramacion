@@ -1,0 +1,19 @@
+{
+    "atributos": [
+        {
+            "Documento": "0",
+            "Nombre": "",
+            "Apellido": "",
+            "Fecha": "00/00/0000",
+            "Nacionalidad": ""
+        }
+    ],
+    "historia clinica": [
+        {
+            "id_historia": "0",
+            "Fecha": "20/20/2000",
+            "Nombre": "",
+            "Especialidad": ""
+        }
+    ]
+}
